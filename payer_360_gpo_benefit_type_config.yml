@@ -1,0 +1,24 @@
+cubes:
+  - name: payer_360_gpo_benefit_type_config
+    sql_table: '"oasis-dev-cube-poc".payer_360_gpo_benefit_type_config'
+    data_source: default
+    public: false
+
+    refresh_key:
+      every: 5 minute
+
+    dimensions:
+      - name: benefit_type
+        sql: benefit_type
+        type: string
+        primary_key: true
+        description: Benefit Type (Pharmacy Benefit or Medical Benefit)
+
+      - name: gpo_name
+        sql: gpo_name
+        type: string
+        description: Name of the GPO associated with the benefit type
+
+    measures:
+      - name: count
+        type: count
