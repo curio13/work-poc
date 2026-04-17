@@ -1,6 +1,6 @@
 cube(`payer_360_lives`, {
   // ========== CUBE-LEVEL METADATA ==========
-  title: `Payer 360 Lives`,
+  title: `Payer 360 Lives - Updated`,
   description: `Comprehensive view of payer lives across commercial, Medicare, and Medicaid book of business. Includes ecosystem and national level aggregations with MDM hierarchy integration. This cube provides insights into market coverage, penetration analysis, and payer organizational structures.`,
   
   meta: {
