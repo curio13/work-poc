@@ -12,37 +12,16 @@ cube(`payer_360_github`, {
     benefit_type: {
       sql: `benefit_type`,
       type: `string`,
-      primaryKey: true,
-      title: `Benefit Type`,
-      description: `This field tells the benefit type by Manish`,
-      meta: {
-        owner: `Annant`,
-        use_cases: `Tells the benefit`,
-        kpi: true,
-      }
+      primaryKey: true
     },
 
     gpo_name: {
       sql: `gpo_name`,
-      type: `string`,
-      title: `Name of Gpo`,
-      description: `This field tells the  gpo name by Manish`,
-      meta: {
-        calculation_logic: `COALESCE(rx_lives, mx_lives) - Uses RX lives if available, otherwise falls back to MX lives`,
-      }
-    }
+      type: `string`
   },
 
   measures: {
     count: {
-      type: `count`,
-      title: `Total Count`,
-      description: `This field tells the count of the rows`,
-      format: `number`,
-      meta: {
-        owner: `Manish`,
-        domain: `Gpo_claims`,
-      }
-    }
+      type: `count`
   }
 });
