@@ -30,6 +30,6 @@ cubes:
     type: count
     meta:
       owner: Harish
-      kpi: false
+      
     title: Total Count
     description: This field tells the count of the rows
