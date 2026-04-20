@@ -9,6 +9,7 @@ cubes:
   - name: benefit_type
     sql: benefit_type
     type: string
+    work: name
     meta:
       owner: Arput
       use_cases: tells benefit
