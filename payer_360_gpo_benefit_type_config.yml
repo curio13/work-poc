@@ -9,11 +9,27 @@ cubes:
   - name: benefit_type
     sql: benefit_type
     type: string
-
+    meta:
+      owner: Arput
+      use_cases: tells benefit
+      kpi: true
+    title: Benefit Type
+    description: This field tells the benefit type by Manish
   - name: gpo_name
     sql: gpo_name
     type: string
-
+    meta:
+      owner: Manish
+      domain: config type
+      use_cases: not working
+      kpi: false
+    title: Name of Gpo
+    description: This field tells the  gpo name by Manish
   measures:
   - name: count
     type: count
+    meta:
+      owner: Harish
+      kpi: false
+    title: Total Count
+    description: This field tells the count of the rows
