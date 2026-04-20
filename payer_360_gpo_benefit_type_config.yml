@@ -15,7 +15,7 @@ cubes:
       use_cases: tells benefit
       kpi: true
     title: Benefit Type
-    description: This field tells the benefit type by Manish
+    description: This field tells the benefit type by Manish before commit
   - name: gpo_name
     sql: gpo_name
     type: string
