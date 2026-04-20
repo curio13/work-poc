@@ -12,7 +12,7 @@ cube(`payer_360_github`, {
     benefit_type: {
       sql: `benefit_type`,
       type: `string`,
-      primaryKey: true,description: `This field tells the benefit type by Manish`,
+      primaryKey: true,
       title: `Benefit Type`,
       description: `This field tells the benefit type by Manish`,
       meta: {
@@ -24,7 +24,7 @@ cube(`payer_360_github`, {
 
     gpo_name: {
       sql: `gpo_name`,
-      type: `string`,description: `This field tells the  gpo name by Manish`,
+      type: `string`,
       title: `Name of Gpo`,
       description: `This field tells the  gpo name by Manish`,
       meta: {
